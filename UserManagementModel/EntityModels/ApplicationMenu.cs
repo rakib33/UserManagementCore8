@@ -11,7 +11,7 @@ namespace UserManagementModel.EntityModels
     /// This contains All menu and submenu
     /// also api parameter as object
     /// </summary>
-    public class ApplicationMenu : Base<int>
+    public class ApplicationMenu : BaseEntity
     {
         /// <summary>
         /// /get-role or /create-role 

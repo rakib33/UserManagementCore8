@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace UserManagementModel.EntityModels
 {
-    public class Page : Base<int>
+    public class Page : BaseEntity
     {
         [Required]
         [StringLength(50)]

@@ -5,7 +5,7 @@ namespace UserManagementModel.EntityModels
     /// <summary>
     /// This is company information
     /// </summary>
-    public class Company : Base<int>
+    public class Company : BaseEntity
     {
         [Required]
         [StringLength(250)]

@@ -1,0 +1,15 @@
+.vs/
+UserManagementCoreAPI/bin/
+UserManagementCoreAPI/obj/
+UserManagementDbContext/bin/
+UserManagementDbContext/obj/
+UserManagementInterface/bin/
+UserManagementInterface/obj/
+UserManagementModel/bin/
+UserManagementModel/obj/
+UserManagementRepository/bin/
+UserManagementRepository/obj/
+UserManagementService/bin/
+UserManagementService/obj/
+UserManagement_IService/obj/
+UserManagement_IService/bin/

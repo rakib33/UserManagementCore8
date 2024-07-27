@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using UserManagementModel.EntityModels;
 using UserManagementModel.Parameters;
 
-namespace UserManagementInterface
+namespace UserManagement_IService
 {
     public interface IApplicationMenuService
     {

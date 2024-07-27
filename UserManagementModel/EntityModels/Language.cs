@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace UserManagementModel.EntityModels
 {
-    public class Language : Base<int>
+    public class Language : BaseEntity
     {
         [Required]
         [StringLength(50)]

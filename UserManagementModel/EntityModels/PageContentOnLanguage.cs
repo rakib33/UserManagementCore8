@@ -10,8 +10,9 @@ namespace UserManagementModel.EntityModels
     /// <summary>
     /// This table contains different language content 
     /// for multilingula option here
+    /// Here primary key will send Guid
     /// </summary>
-    public class PageContentOnLanguage : Base<int>
+    public class PageContentOnLanguage : BaseEntity<Guid>
     {
         [Required]
         public int LanguageId { get; set; }

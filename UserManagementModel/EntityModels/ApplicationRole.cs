@@ -7,5 +7,7 @@ namespace UserManagementModel.EntityModels
     {
         [StringLength(500)]
         public string Description { get; set; }
+
+        public bool IsActive { get; set; }
     }
 }

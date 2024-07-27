@@ -13,7 +13,7 @@ namespace UserManagementModel.EntityModels
     /// has multiple menue access permission
     /// Hear all model relation are flat
     /// </summary>
-    public class RolePermission : Base<int>
+    public class RolePermission : BaseEntity
     {
         /// <summary>
         /// Foreign Key of Role

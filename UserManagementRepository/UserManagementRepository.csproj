@@ -21,4 +21,9 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\UserManagementDbContext\UserManagementDbContext.csproj" />
+    <ProjectReference Include="..\UserManagementInterface\UserManagementInterface.csproj" />
+  </ItemGroup>
+
 </Project>

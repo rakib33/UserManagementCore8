@@ -11,7 +11,7 @@ namespace UserManagementInterface
     public interface ICompanyRepository
     {
         Task<IQueryable<Company>> GetAll();
-        Task<Company> GetCompanyById(int id);
+        Task<Company?> GetCompanyById(int id);
         Task<Company> Save(Company company);
         Task<Company> Update(Company company);
 
@@ -20,7 +20,7 @@ namespace UserManagementInterface
         /// </summary>
         /// <param name="canActive"></param>
         /// <returns></returns>
-        Task<Company> CanActive(CanActive canActive);
-        Task<Company> Delete(int id);
+        Task<Company?> CanActive(CanActive canActive);
+        Task<Company?> Delete(int id);
     }
 }

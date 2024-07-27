@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using UserManagementModel.EntityModels;
 
-namespace UserManagementInterface
+namespace UserManagement_IService
 {
     public interface IPageContentService
     {

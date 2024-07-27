@@ -17,6 +17,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TestProject", "TestProject"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserManagementCoreAPI", "UserManagementCoreAPI\UserManagementCoreAPI.csproj", "{034B9E3A-C2E5-4908-B186-F318BA4009DE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserManagement_IService", "UserManagement_IService\UserManagement_IService.csproj", "{032381F1-10AB-4BD6-B06B-CD9008FE27C6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +49,10 @@ Global
 		{034B9E3A-C2E5-4908-B186-F318BA4009DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{034B9E3A-C2E5-4908-B186-F318BA4009DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{034B9E3A-C2E5-4908-B186-F318BA4009DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{032381F1-10AB-4BD6-B06B-CD9008FE27C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{032381F1-10AB-4BD6-B06B-CD9008FE27C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{032381F1-10AB-4BD6-B06B-CD9008FE27C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{032381F1-10AB-4BD6-B06B-CD9008FE27C6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
