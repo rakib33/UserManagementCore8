@@ -7,8 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Dtos\" />
-    <Folder Include="ViewModel\" />
+    <Compile Remove="Dtos\**" />
+    <Compile Remove="ViewModel\**" />
+    <EmbeddedResource Remove="Dtos\**" />
+    <EmbeddedResource Remove="ViewModel\**" />
+    <None Remove="Dtos\**" />
+    <None Remove="ViewModel\**" />
   </ItemGroup>
 
   <ItemGroup>

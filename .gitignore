@@ -13,3 +13,5 @@ UserManagementService/bin/
 UserManagementService/obj/
 UserManagement_IService/obj/
 UserManagement_IService/bin/
+UserManagement.EmailService/bin/
+UserManagement.EmailService/obj/
